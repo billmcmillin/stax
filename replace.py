@@ -3,7 +3,7 @@
 import csv
 
 #define input file
-i_f = open("ranges.csv", "r")
+#i_f = open("ranges.csv", "r")
 #define output file - script to choose image based on call number input
 o_f = open("getMap.php", "w+")
 
@@ -22,32 +22,30 @@ o_f.write("print \"</style>\";print \"<body>\";\nprint '<div class=\"main\">';\n
 
 o_f.write("//begin checking for locations\n")
 
-for line in i_f:
-    username = "init uname"
-    dep = "init dep"
-    uname = line.rsplit(' ',1)[1]
 
-def outputly(uname):
-    o_f.write("found faculty name\n")
-    o_f.write(uname)
+def outputly(printVal):
+    o_f.write(printVal)
     return
 
-    with open('fac_username_deps_clean.csv', 'rb') as csvfile:
-        reader = csv.reader(csvfile, delimiter=',')
+with open('ranges.csv', 'r') as csvfile:
+        reader = csv.reader(csvfile, delimiter='\t')
+        colnum = 0
+        rownum = 0
         for row in reader:
-            colnum = 0
-            for col in row:
-                if colnum ==0:
-                    username = col
-                  #  print username
-                if colnum ==2:
-                    dep = col
-                   # print dep
-                        
-                colnum += 1
-            outputly(username);       
-        #o_f.write("found faculty name")
-        #o_f.write('\n')
-
-i_f.close()
+            if(row[0] == '!'):
+                print (row)
+                outputly(row[0])
+            if(row[0] == '!!'):
+                print (row)
+                outputly(row[0])
+            if(row[0] == '#'):
+                print (row)
+                firstCallNum = row[1]
+                outputly(firstCallNum)
+                secondCallNum = row[2]
+                outputly(secondCallNum)
+                    
+        
+      
+#i_f.close()
 o_f.close()
