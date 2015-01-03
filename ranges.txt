@@ -1,0 +1,169 @@
+sep=\t	Library Name	Location Name	Call # Begin	Call # End	Image file				
+!	Milner								
+!!		Floor  2 Circulation Desk							
+#			A	Z	floor2range1.gif				
+!!		Floor 2 Course Reserve Desk				"? - Course Reserves may include items with call numbers outside of LC, or no call numbers at all. Can we abstain from call number limits?"			
+#			A	Z	floor2range1.gif		Course Reserves are often listed under temporary location - will this system pick that up?		
+!!		Floor  2 Course Reserve Desk: Building Use Only				? - Ditto above			
+#			A	Z	floor2range1.gif				
+!!		Floor  2 Current Periodicals: Building Use Only							
+#			A	Z	floor2range2.gif				
+!!		Floor  2 Media							
+#			A	Z	floor2range3.gif				
+!!		Floor 2 Microform Area: Building Use Only							
+#			A	Z	floor2range4.gif				
+!!		Floor  2 Reference Desk: Building Use Only							
+#			A	Z	floor2range5.gif				
+!!		Floor  2 Reference: Building Use Only							
+#			A	Z	floor2range6.gif				
+!!		"Floor  2 Reference, Microform Indexes: Building Use Only"							
+#			A	Z	floor2range7.gif				
+!!		Floor 2 Documents Pamphlets							
+#			A	Z	floor2range7.gif	? - Docs Pamphlets have different call number system. Can we abstain from using call number limits?			
+!!		Floor 2 Browsing Area							
+#			A	Z	floor2range8.gif	? - Browsing collection is small and does not have specific call number. Can we abstain from using call number limits?			
+!!		Floor 2 New Books Shelves				? - New Books Shelves are only ever listed under temporary location - will this system pick that up?			
+#			A	Z	floor2range9.gif				
+!!		Floor 3 Oversize Shelves							
+#			A	F	floor3range1.gif				
+!!		FL3 Oversize Noncirc Shelves							
+#			A	F	floor3range1.gif				
+!!		Floor 3 Shelves							
+#			A	C	floor3range2.gif				
+#			D	E99.C6 D	floor3range3.gif				
+#			E99.C6 E	F	floor3range4.gif				
+!!		Floor 3 Shelves: Building Use Only							
+#			A	C	floor3range2.gif				
+#			D	E99.C6 D	floor3range3.gif				
+#			E99.C6 E	F	floor3range4.gif				
+!!		Floor 4 Federal Documents Shelves							
+#			DOC A	DOC Z	floor4range1.gif	? - Another area where it would be nice to abstain from using call number limits.			
+!!		Floor 4 Federal Documents Shelves: Building Use Only							
+#			DOC A	DOC Z	floor4range1.gif	? - Another area where it would be nice to abstain from using call number limits.			
+!!		Floor 4 Shelves							
+#			G	HB139.A35	floor4range2.gif				
+#			HB139.A38	HD9720.5.C	floor4range3.gif				
+#			HD9720.5.D	HQ1370	floor4range4.gif				
+#			HQ1371	HV1421.S	floor4range5.gif				
+#			HV1421.T	KZ	floor4range6.gif				
+!!		Floor 4 Shelves: Building Use Only							
+#			G	HB139.A35	floor4range2.gif				
+#			HB139.A38	HD9720.5.C	floor4range3.gif				
+#			HD9720.5.D	HQ1370	floor4range4.gif				
+#			HQ1371	HV1421.S	floor4range5.gif				
+#			HV1421.T	KZ	floor4range6.gif				
+!!		Floor 4 Maps Area							
+#			A	Z	floor4range7.gif	? - Another area where it would be nice to abstain from using call number limits.			
+!!		Floor 4 Oversize Materials							
+#			G	KZ	floor4range8.gif				
+!!		Floor 4 Oversize Materials: Building Use Only							
+#			G	KZ	floor4range8.gif				
+!!		Floor 5 Shelves							
+#			Q	QA76.73.P22 F	floor5range1.gif				
+#			QA76.73.P22 G	QL495.N3	floor5range2.gif				
+#			QL495.N4	RT1.N86	floor5range3.gif				
+#			RT1.N87	ZA	floor5range4.gif				
+!!		Floor 5 Shelves: Building Use Only							
+#			Q	QA76.73.P22 F	floor5range1.gif				
+#			QA76.73.P22 G	QL495.N3	floor5range2.gif				
+#			QL495.N4	RT1.N86	floor5range3.gif				
+#			RT1.N87	ZA	floor5range4.gif				
+!!		Floor 5 Oversize Materials							
+#			Q	ZA	floor5range5.gif				
+!!		Floor 5 Oversize Materials: Building Use Only							
+#			Q	ZA	floor5range5.gif				
+!!		Floor 6 Shelves Teaching Materials Center							
+#			TMC	TMC	floor6range1.gif	? - TMC collections use multiple different call number systems. Can we abstain from using call number limits?			
+!!		Floor 6 Shelves Teaching Materials Center: Building Use Only							
+#			TMC	TMC	floor6range1.gif	? - TMC collections use multiple different call number systems. Can we abstain from using call number limits?			
+!!		Floor 6 Media							
+#			A	Z	floor6range2.gif				
+!!		Floor 6 Shelves							
+#			L	M25.J	floor6range3.gif				
+#			M25.K	NC258.A	floor6range4.gif				
+#			NC258.B	PQ1812.K	floor6range5.gif				
+#			PQ1812.L	PR4166.H	floor6range6.gif				
+#			PR4166.I	PS3501.R5	floor6range7.gif				
+#			PS3501.R6	PZ	floor6range8.gif				
+!!		Floor 6 Shelves: Building Use Only							
+#			L	M25.J	floor6range3.gif				
+#			M25.K	NC258.A	floor6range4.gif				
+#			NC258.B	PQ1812.K	floor6range5.gif				
+#			PQ1812.L	PR4166.H	floor6range6.gif				
+#			PR4166.I	PS3501.R5	floor6range7.gif				
+#			PS3501.R6	PZ	floor6range8.gif				
+!!		Floor 6 Miniature Score Shelves							
+#			M	M	floor6range9.gif	? - Another area where it would be nice to abstain from using call number limits.			
+!!		Floor 6 Oversize Materials							
+#			M	M	floor6range10.gif	? - Not sure of the correct call numbering to limit to Ms only 			
+#			N	P	floor6range11.gif				
+!!		Floor 6 Oversize Materials: Building Use Only							
+#			M	M	floor6range10.gif	? - Not sure of the correct call numbering to limit to Ms only 			
+#			N	P	floor6range11.gif				
+!!		Floor 6 Special Collections: Building Use Only							
+#			A	Z	floor6range12.gif	? - Another area where it would be nice to abstain from using call number limits.			
+!!		Floor 6 Special Collections: Children's and Textbooks							
+#			A	Z	floor6range12.gif	? - Another area where it would be nice to abstain from using call number limits.			
+!!		Floor 6 Special Collections: Rare & Fine: Building Use Only							
+#			A	Z	floor6range12.gif	? - Another area where it would be nice to abstain from using call number limits.			
+									
+LOCATIONS CLOSED TO PUBLIC									
+!!		Preservation Department: Staff Use Only							
+!!		Storage Basement:  Building Use Only: Request Online							
+!!		Storage Basement: Building Use Only: Request Online							
+!!		Storage Basement: Request Online							
+!!		Storage Basement: TMC Artifacts: Reserve in Advance							
+!!		Storage North: Request Online							
+!!		Systems Department: Staff Use Only							
+!!		UHigh Archives: Library Use Only							
+!!		UHigh Biography							
+!!		UHigh Electronic Resource (UHigh Students and Faculty Only)							
+!!		UHigh Fiction							
+!!		UHigh Foreign Language Shelves							
+!!		UHigh Graphic Novels							
+!!		UHigh Nonbook							
+!!		UHigh Professional							
+!!		UHigh Reference: Library Use Only							
+!!		UHigh Reserve Desk: Library Use Only							
+!!		UHigh Shelves							
+!!		Univ High School Circ Desk							
+!!		Univ. Archives--Warehouse Road: Building Use Only							
+!!		"Zimmerman Library, Metcalf School Easy"							
+!!		"Zimmerman Library, Metcalf School Fiction"							
+!!		"Zimmerman Library, Metcalf School Nonbook"							
+!!		"Zimmerman Library, Metcalf School Nonfiction"							
+!!		"Zimmerman Library, Metcalf School Professional"							
+!!		"Zimmerman Library, Metcalf School Reference"							
+!!		"Zimmerman Library, Metcalf School Storage"							
+!!		Bibliographic Services Division: Staff Use Only							
+									
+OUTDATED LOCATIONS									
+!!		Storage Williams Documents: Request at Circulation Desk							
+!!		Storage Williams: Request Online							
+!!		.ISU Main Circulation Desk							
+!!		Contact Circulation Desk							
+!!		Floor 4 Desk							
+!!		Floor 4 Desk: Building Use Only							
+!!		Floor 4 Reference: Building Use Only							
+!!		FL 6 Media Resource Center Cabinet: Building Use Only							
+!!		New Items - On Order							
+!!		Floor 1 Reference: Building Use Only							
+!!		Floor 1 Shelves							
+!!		Floor 1 Teaching Materials Center Curriculum Guides							
+!!		Floor 2 Documents Microform Index Area							
+!!		Floor 2 Documents Reference: Building Use Only							
+!!		Floor 6 Learning Resource Center							
+!!		Floor 6 Learning Resources Center							
+!!		Floor 6 Learning Resources Center Reserve: Building Use Only							
+!!		Floor 6 Learning Resources Center: Building Use Only							
+!!		Floor 5 Desk							
+!!		Floor 5 Desk: Building Use Only							
+!!		Floor 5 Reference: Building Use Only							
+!!		Floor 6 Workroom: Building Use Only							
+									
+									
+									
+									
+									
+									
+									

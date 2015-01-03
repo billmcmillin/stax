@@ -12,8 +12,6 @@ oFunc_f = open("mapFuncs.php", "w")
 #write the beginning of the php file that gets the call number and outputs html
 o_f.write("<?php\n\n")
 
-o_f.write("require('mapFuncs.php');\n\n")
-
 o_f.write("$callNum = htmlspecialchars($_GET[\"callNum\"]);\n$loc = htmlspecialchars($_GET[\"loc\"]);\n")
 
 o_f.write("//result page that is displayed when user clicks on a link\nprint \"<html>\";\nprint \"<head>\";\n")

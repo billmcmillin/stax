@@ -14,6 +14,8 @@ def sortable(inCall):
     outCall = re.sub("/", "", outCall)
     #remove backslashes
     outCall = re.sub("\\\\", "", outCall)
+    #strtoupper
+    #[A-Za-z]+
 
     p = re.compile([a-z])
     print(outCall)
