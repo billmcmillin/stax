@@ -2,10 +2,12 @@
 /*mapFuncs_Goal.php
 This is an example of how the mapFuncs.php file should look when the
 generator program is run.
+test with url such as
+http://localhost/stax/mapFuncs_Goal.php?callNum=B&loc=Floor%202%20Stacks
 */
 
 //include function to sort callNums
-//include("../include/sortLC.php");
+include("sortLCC.php");
 
 class stdObject {
     public function __construct(array $arguments = array()) {
@@ -31,7 +33,8 @@ $callNum = htmlspecialchars($_GET["callNum"]);
 $loc = htmlspecialchars($_GET["loc"]);
 
 //$subCall = sortable($callNum);
-$subCall = $callNum;
+$subCall = NormalizeLC($callNum);
+echo $subCall;
 //result page that is displayed when user clicks on a link
 	print "<html>";
 	print "<head>";
@@ -57,15 +60,15 @@ $subCall = $callNum;
 	$locObj = new stdObject();
 	$locObj->libName = 'Milner';
 	$locObj->location = 'Floor 2 Stacks';
-	$locObj->callNumBegin = 'A';
-	$locObj->callNumEnd = 'M';
+	$locObj->callNumBegin = NormalizeLC('A');
+	$locObj->callNumEnd = NormalizeLC('M');
 	$locObj->imageFile = 'floor2range1.gif';
 
 	$locObj1 = new stdObject();
 	$locObj1->libName = 'Milner';
 	$locObj1->location = 'Floor 2 Stacks';
-	$locObj1->callNumBegin = 'N';
-	$locObj1->callNumEnd = 'Z';
+	$locObj1->callNumBegin = NormalizeLC('N');
+	$locObj1->callNumEnd = NormalizeLC('Z');
 	$locObj1->imageFile = 'floor2range2.gif';
 
 //put all the objects in an array
@@ -90,11 +93,7 @@ $subCall = $callNum;
 			//print "subcall " . $subCall . " is between " . ($cur->callNumBegin) . " and ";
 			//echo $cur->callNumEnd;
 		}
-		//if no match is found, display error message
-		else {
-			print '<p>Could not find this item. Please ask a librarian for assistance.</p>'
-		}
-
+		
 	}
 
 
