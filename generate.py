@@ -1,9 +1,22 @@
 #!/usr/bin/python
 
 import csv
+import re
 
-#define input file
-#i_f = open("ranges.csv", "r")
+#first run through the ranges files to fill in call numbers so they can be formatted
+with open('ranges.txt', 'w+') as csvfile:
+    reader = csv.reader(csvfile, delimiter='\t')
+    for row in reader:
+        
+        #if it's a range
+        if(row[0] == '#'):
+            cnBegin = row[3]
+            cnEnd = row[4]
+            #if the beginning call number contains no numbers
+
+            #if the end call number contains no numbers
+            
+
 #define output file - script to choose function based on location
 o_f = open("getMap.php", "w")
 
