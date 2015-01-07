@@ -89,7 +89,6 @@ echo $subCall;
 		if (($cur->location === $loc)&& ($subCall >= $cur->callNumBegin) && ($subCall < $cur->callNumEnd)) {
 			print '<p>Call number ' . $subCall . ' is in location: ' . $cur->location . '.';
 			print '<img src="../img/' . $cur->imageFile . '"/><br />';
-			$x = 1;
 
 			//print "subcall " . $subCall . " is between " . ($cur->callNumBegin) . " and ";
 			//echo $cur->callNumEnd;
@@ -97,9 +96,7 @@ echo $subCall;
 		
 	}
 
-	if ($x != 1){
-		print '<p>Unknown location. Please ask a librarian for assistance</p>';
-	}
+
 
 //end location check
 
